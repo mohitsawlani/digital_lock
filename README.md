@@ -33,6 +33,4 @@ Wrong key at any point → `wrong` state → alarm stays latched until hardware 
 - ~30s later → auto re-locks, exactly as the 300-cycle timer predicts.
 - Wrong key → `alarm` drops LOW and stays there until a `clear` pulse.
 
-## Reference
 
-Design based on a textbook Combination Lock FSM (Listings 8.9–8.14). Learned the basics through Prof. R K Sharma's NPTEL Verilog lectures.
